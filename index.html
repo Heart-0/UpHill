@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>UpHill</title>
+        <meta charset="utf-8">
+        <link href="css/main.css"  type="text/css" rel="stylesheet">
+         <!--Agregar div para el logo, contenido se desplaza al hacerlo-->
+        <img alt="UpHill Logo" id="logo" src="SiteImage/imageedit_1_8466508313.png">
+    </head>
+    <body id="contenido">
+        
+        <!--Accidentalmente seccione el formulario con la primera seccion/introduccion del homepage, cambiar mas adelante-->
+        <article class="seccion1">
+            
+            <!--Se agrega la barra de busqueda, falta cambiar color del font-->
+         <form id="bar" role="search">
+             
+            <input type="search" id="query" name="q" placeholder="Search" aria-label="Search through site content">
+            
+             <!--Lupa del boton de searchbar-->
+            <button>
+                
+                <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path>
+                    
+                </svg>
+                
+             </button>
+            
+             </form>
+            
+        <h1>Bienvenidos!</h1>
+            
+            <p id="introduccion">Somos UpHill, bikeshop especializada en venta de piezas y con un concepto DIY.  Suplimos piezas de manera individual para que el cliente escoja cada una de ellas y cree su bicicleta a su gusto. ¡Ofrecemos todo tipo de servicios y también trabajamos piezas por pedidos, pregúntanos! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus vulputate tortor vel faucibus. Proin nec augue turpis. Integer aliquet, lectus non laoreet cursus, ipsum urna tempor leo, vel elementum velit eros in elit. Nunc viverra vestibulum diam, ut sodales erat. Aenean vitae nisl condimentum justo interdum posuere. Sed elementum imperdiet urna vel rutrum. Fusce auctor lobortis magna feugiat ultrices. Nulla sagittis porta elit, ut placerat diam congue et. Ut auctor dictum leo, nec dapibus urna aliquet a. Sed facilisis porta mi non rhoncus. Aenean id tellus sagittis, dictum metus fringilla, efficitur magna. Donec fermentum placerat libero et interdum. Suspendisse varius enim purus, ut laoreet tortor commodo tempor. Pellentesque accumsan velit vitae faucibus molestie. Donec a sceleris.</p>
+            
+              <hr>
+        <h2>Contactanos</h2>
+            
+           <form id="contactform">
+               <label id="nombre" for="fname">Nombre:</label><br>
+               <input type="text" id="fname" name="fname"><br>
+               <label id="apellido" for="lname">Apellido:</label><br>
+               <input type="text" id="lname" name="lname"><br>
+               <label id="correo" for="email">Email:</label><br>
+               <input type="text" id="email" name="email"><br>
+               <label id="mensaje" for="message">Mensaje:</label><br>
+               <input type="text" id="message" name="message"><br>
+               <input type="button" id="submit" value="Submit">
+            </form>
+            
+            <div class="dropdown">
+                <button class="dropbtn">+</button>
+                <div class="dropdown-content">
+                    <a href="#">BMX</a>
+                    <a href="#">Fixed Gear</a>
+                    <a href="#">Accesories</a>
+                    <a href="#">Other Services</a>
+                    <a href="#">About Us</a>
+                </div>
+            </div>
+            
+            <img id="contactstock" src="SiteImage/fixedgearstock.jpg">
+            
+          </article>
+        
+        <!--Se agrega el Google API para la localizacion de la "tienda", agregar los reviews/info debajo mas adelante-->
+        <iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3786.4324812218!2d-66.06891238475333!3d18.37315778749504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c036842376563a9%3A0x88e6e90532eb01c9!2sBikes4You!5e0!3m2!1ses-419!2spr!4v1633292168100!5m2!1ses-419!2spr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+        <!--Se agregan botones de redes de la "tienda"-->
+          <p><a href="https://www.facebook.com/">
+               <img id="fblogo" src="SiteImage/Facebook-Logo-Transparent.png" alt="Facebook Logo"></a></p> 
+        
+        <p><a href="https://www.google.com/intl/es-419/gmail/about/">
+            <img id="gmaillogo" src="SiteImage/gmailtransparent.png" alt="Gmail Logo"></a></p>
+        
+        <p><a href="https://twitter.com">
+            <img id="twitterlogo" src="SiteImage/twitterlogo.png" alt="Twitter Logo"></a></p>
+        </body>
+</html>
