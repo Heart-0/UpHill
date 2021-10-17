@@ -1,0 +1,233 @@
+#logo{
+    float: left;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 400px;
+}
+
+#contactstock{
+    width: 400px;
+    position: relative;
+    right: 210px;
+    bottom: 570px;
+    border: solid black;
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+h2{
+    position: relative;
+    right: 290px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.seccion1{
+    text-align: center;
+    display: block;
+    padding: 130px;
+    font-size: 20px;
+}
+
+#googlemap{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    bottom: 1040px;
+    left: 70px;
+}
+
+hr{
+    color: black;
+    width: 1700px;
+    opacity: ;
+}
+
+#bar{
+    background-color: greenyellow;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 1000px;
+    bottom: 50px;
+    border-style: solid;
+    border-color: black;
+}
+
+input{
+    all: unset;
+    font: 16px sans-serif;
+    color: darkgrey;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+svg{
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding; 10px;
+}
+
+#contactform{
+    position: relative;
+    width: 600px;
+    left: 800px;
+}
+
+#fname{
+    border-style: solid;
+    border-color: black;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#lname{
+    border-style: solid;
+    border-color: black;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#email{
+    border-style: solid;
+    border-color: black;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#message{
+    border-style: solid;
+    border-color: black;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    height: 300px;
+    background-color: white;
+}
+
+#nombre{
+    position: relative;
+    right: 160px;
+}
+
+#apellido{
+    position: relative;
+    right: 160px;
+}
+
+#correo{
+    position: relative;
+    right: 170px;
+}
+
+#mensaje{
+    position: relative;
+    right: 160px;
+}
+
+#introduccion{
+    padding-left: 400px;
+   
+}
+
+#submit{
+    border-style: solid;
+    background-color: greenyellow;
+    border-color: lightgray;
+    position: relative;
+    left: 100px;
+    border-radius: 100px;
+    color: black;
+}
+
+body{
+    background-image: url(sanjuanstreetmap.jpg);
+}
+
+.dropbtn{
+    background-color: greenyellow;
+    color: white;
+    padding: 16px;
+    font-size: 40px;
+    border: none;
+    position: relative;
+    bottom: 1290px;
+    left: 1027px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    bottom: 1055px;
+    left: 940px;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: darkgray;
+}
+
+#fblogo{
+    width: 100px;
+    position: relative;
+    bottom: 700px;
+    left: 600px;
+}
+
+#gmaillogo{
+    width: 90px;
+    position: relative;
+    bottom: 805px;
+    left: 850px;
+}
+
+#twitterlogo{
+    width: 120px;
+    position: relative;
+    bottom: 915px;
+    left: 1070px;
+}
